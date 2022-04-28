@@ -1,5 +1,6 @@
 ## Changelog
 ##### Unreleased
+- [Decorator Metadata proposal](https://github.com/tc39/proposal-decorator-metadata) extracted from [Decorators proposal](https://github.com/tc39/proposal-decorators), `Symbol.metadataKey` replaces `Symbol.metadata`
 - Fixed dependencies of `{ actual, full, features }/typed-array/at` entries
 
 ##### [3.22.7 - 2022.05.24](https://github.com/zloirock/core-js/releases/tag/v3.22.7)
