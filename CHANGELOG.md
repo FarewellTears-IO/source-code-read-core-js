@@ -1,5 +1,10 @@
 ## Changelog
 ##### Unreleased
+- [`Array` find from last](https://github.com/tc39/proposal-array-find-from-last) moved to the stable ES, per June 2022 TC39 meeting
+  - `Array.prototype.findLast`
+  - `Array.prototype.findIndex`
+  - `%TypedArray%.prototype.findLast`
+  - `%TypedArray%.prototype.findIndex`
 - Fixed dependencies of `{ actual, full, features }/typed-array/at` entries
 
 ##### [3.22.7 - 2022.05.24](https://github.com/zloirock/core-js/releases/tag/v3.22.7)
