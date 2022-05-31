@@ -1,6 +1,7 @@
 ## Changelog
 ##### Unreleased
 - Added `Array.prototype.push` polyfill with some fixes for modern engines
+- Added `Array.prototype.unshift` polyfill with some fixes for modern engines
 - Changed the order of operations in `%TypedArray%.prototype.with` following [proposal-change-array-by-copy/86](https://github.com/tc39/proposal-change-array-by-copy/issues/86)
 - Fixed possible multiple call of `ToBigInt` / `ToNumber` conversion of the argument passed to `%TypedArray%.prototype.fill` in V8 ~ Chrome < 59, Safari < 14.1, FF < 55, Edge <=18
 - Fixed some cases of `DeletePropertyOrThrow` in IE9-
